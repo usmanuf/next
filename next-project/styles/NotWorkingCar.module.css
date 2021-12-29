@@ -1,0 +1,44 @@
+.notWorkingCar a
+{
+    text-decoration: none;
+}
+
+.HerosectionNoNWorkingCar{
+    background-image: url("../public/assets/Images/non-working-car.jpeg");
+   padding: 55px 0;
+    display: grid;
+    place-items: center;
+     position: relative;
+     background-size: 100% 100% 100%;
+    height: 70vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paraWhy
+{
+    font-size: 1.1rem;
+    text-align: justify;
+    padding: 23px;
+    margin: 0 45px;
+}
+
+@media screen and (max-width: 565px) {
+   .HerosectionNoNWorkingCar{
+    background-image: url("../public/assets/Images/not-working-car-mobile.jpeg");
+   padding: 55px 0;
+    display: grid;
+    place-items: center;
+     position: relative;
+     background-size: 100% 100% 100%;
+} 
+.paraWhy
+{
+    font-size: 1.1rem;
+    text-align: justify;
+    padding: 23px;
+    margin: 0 0;
+}
+}

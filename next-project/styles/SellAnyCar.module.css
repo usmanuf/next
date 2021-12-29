@@ -1,0 +1,29 @@
+.SellAnyCar{
+    background-image: url("../public/assets/Images/hero-crazy-img.jpg");
+    /* padding: 55px 0;
+    margin-top: 70px; */
+    display: grid;
+    place-items: center;
+    height: auto;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-bottom: var(--theme-color) solid 4px;
+}
+.formSellCar{
+    background: var(--white);
+    padding: 22px;
+}
+
+@media screen and (max-width: 565px) {
+
+    .SellAnyCar{
+    padding: 18px 0;
+    background: var(--bg-gray);
+    }
+    .formSellCar{
+        background: var(--white);
+        padding: 22px;
+    }
+}

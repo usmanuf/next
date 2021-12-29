@@ -1,0 +1,190 @@
+.row1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    width:100%;
+    padding-left: 3rem;
+}
+.formConatinerCustomCss .form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.inputbox{
+  background-color: #f2f2f2 !important;
+  width: 70%;
+  border: none;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-left: 7rem;
+  padding: 1rem !important;
+}
+.inputbox:focus{
+    outline: none;
+}
+.inputdiv{
+    /* background: #d4e7ff; */
+    width: 100%;
+    /* padding:10px; */
+    display: flex;
+    flex-direction: column;
+}
+.inputname{
+    padding-left: 1rem;
+}
+.inputname2{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+/* .arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right:10px solid #d4e7ff;
+    margin-top:20px;
+} */
+.btn-div{
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    }
+
+.postbtn{
+    border : 2px solid #659bdb;
+    border-radius: 5px;
+    background-color: #659bdb;
+    padding: 5px 14px;
+    color: #ffffff;
+    font-weight:bolder;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.postbtn:active{
+    outline: none;
+}
+.cancelbtn{
+    color: rgb(139, 139, 139);
+    text-align: center;
+    background-size: 200% auto;
+    border-radius:5px;
+    padding: 5px 10px;
+    border: 2px solid rgb(139, 139, 139);
+    font-weight:bolder;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cancelbtn:focus {
+    outline:0;
+  }
+.commnetImage{
+    width: 5rem !important;
+    height: 5rem!important;
+    padding: 0 !important;
+    border-radius: 50% !important;
+}
+.form hr{
+    border-top: 2px dashed  !important;
+    background: none !important;
+    height: 0 !important;
+    width: 95%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+._1SugS ._qWiSF ._34q_J {
+    display: none !important;
+}
+._1SugS ._qWiSF ._1i6uS{
+    flex-direction: column-reverse !important;
+}
+._12xdX{
+    flex-direction: column-reverse !important;
+}
+._2STY7{
+    margin-top: 100px;
+}
+._1SugS ._qWiSF{
+    padding-top: 1rem !important;
+    padding-bottom: 2rem !important;
+    border-bottom: 2px solid rgb(196, 203, 216) !important;
+}
+._1SugS ._l0opN{
+    border: none !important;
+}
+._1SugS ._qWiSF ._1i6uS ._155_V div img{
+    width: 50px !important;
+    height: 50px !important;
+}
+._1SugS ._qWiSF ._1i6uS ._155_V{
+    justify-content: start !important;
+    align-items: center !important;
+}
+._1SugS ._qWiSF ._1i6uS ._155_V ._1Njvz{
+    float: right !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .row1{
+        
+        width:100%;
+        padding-left: 0rem;
+        flex-direction: column;
+    }
+    .input-div {
+        display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+    justify-content: center !important;
+    }
+    .input-name{
+        padding-left: 0 !important;
+    }
+    .input-box{
+        background-color: #f2f2f2 !important;
+        width: 90%;
+        border: none;
+        border-radius: 3px;
+        margin-top: 5px;
+        margin-left: 0;
+      }
+      ._1SugS {
+        margin-top: 18px;
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .row1{
+        
+        width:95%;
+        padding-left: 0rem;
+    }
+    .input-div {
+        display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+    justify-content: center !important;
+    }
+    .inputname{
+        padding-left: 0 !important;
+    }
+    .inputbox{
+        /* background: #d4e7ff; */
+        width: 90%;
+        border: none;
+        border-radius: 3px;
+        margin-top: 5px;
+        padding-left: 0;
+      }
+      ._1SugS {
+        margin-top: 18px;
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+    
+  }

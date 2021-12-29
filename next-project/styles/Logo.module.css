@@ -1,0 +1,19 @@
+.logo img{
+    width: 195px !important;
+    height: 85px !important;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo > span {
+    margin-left: 10px;
+  }
+  
+  .logo > span strong {
+    color: var(--theme-color);
+  }
+  .logo > span span {
+    color: var(--second-gray);
+  }
+  

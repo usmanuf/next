@@ -1,0 +1,79 @@
+.workingCar a{
+    text-decoration: none;
+    color: var(--theme-color);
+}
+.HerosectionWorkingCar{
+    background-image: url("../public/assets/Images/working-car.jpeg");
+    padding: 55px 0;
+    display: grid;
+    place-items: center;
+     position: relative;
+     background-size: 100% 100% 100%;
+   height: 70vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.PragraWorkingCAr{
+    margin: 23px 0;
+}
+.ParaWorkingCar{
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 600;
+}
+.HeadingWorkingCar{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: justify;
+    padding: 1rem!important;
+}
+.ParagraphWorking{
+    display: flex;
+    text-align: justify;
+    color: var(--secondary-bg);
+}
+.IconWorking{
+    color: var(--theme-color);
+    margin: 3px;
+    font-size: 1.2rem;
+}
+.DoorStep{
+    padding: 22px 0;
+    background: var(--bg-gray);
+    margin: auto;
+    margin-top: 18px;
+
+}
+.Method{
+    padding: 22px 0;
+    margin: auto;
+    margin-top: 18px;
+}
+.maxWidthWorking{
+   max-width: 600px;
+   margin:12px;
+}
+.paraWhyss
+{
+font-size: 1.1rem;
+text-align: justify !important;
+padding: 1rem!important;
+}
+
+@media screen and (max-width: 565px) {
+   .HerosectionWorkingCar{
+    background-image: url("../public/assets/Images/working-car-mobile.jpeg");
+   padding: 55px 0;
+    display: grid;
+    place-items: center;
+     position: relative;
+     background-size: 100% 100% 100%;
+    height: 70vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+}

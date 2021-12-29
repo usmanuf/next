@@ -1,0 +1,71 @@
+.Steps{
+    padding: 33px;
+    /* margin-bottom: 55px; */
+    border-top: 1px solid var(--bg-gray);
+}
+.StepsContain:hover .StepsHeading{
+    color: var(--theme-color);
+}
+.StepsContain:hover .BlankDivStep{
+    border: 1px solid var(--theme-color);
+    border-right: 3px;
+}
+.paraWhys {
+    font-size: 1.1rem;
+    text-align: center;
+}
+.StepsHeading{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 33px;
+    /* text-align: center; */
+    margin-top: 25px;
+}
+.BlankDivStep{
+
+    width: 80% !important;
+    border: 1px solid transparent;
+}
+.BlankDivStep img{
+    width: 100% !important;
+    max-height: 250px !important;
+    border: 1px solid transparent !important;
+    background: rgba(0,0,0,0.3) !important;
+}
+.StepsContain{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: .3s;
+}
+
+@media screen and (max-width: 565px) {
+
+    .Steps{
+        padding: 3px;
+        margin-bottom: 55px;
+        /* margin-top: 55px; */
+        border-top: 1px solid var(--bg-gray);
+    }
+    .paraGraphStep{
+        margin: 0 16px;
+        text-align: center;
+    }
+   .BlankDivStep {
+    width: 90% !important;
+    border: 1px solid transparent;
+    /* justify-content: center; */
+    margin-left: 18px;
+    }
+    .paraWhys {
+    font-size: 1.1rem;
+    text-align: center;
+}
+.StepsHeading{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 33px;
+    /* text-align: center; */
+    margin-top: 18px;
+}
+}

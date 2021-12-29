@@ -1,0 +1,128 @@
+.ContainerBlogForm{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background-color:#f2f2f2 ;
+  }
+  .HeroiImgBlogForm{
+    background-image: url("https://image.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-color: #464646;
+    background-size: cover;
+    width: 100%;
+  }
+  .paddingTopBottomBlogForm{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+  .HeroiImgTextBlogForm{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .HeroiImgTextH5BlogForm{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .symbolSizeBlogForm{
+    font-size: xx-large;
+    padding-right: 1rem;
+  }
+  .blogPostSpanText {
+    color: rgb(173, 172, 172);
+  }
+  .blogPostHeading{
+    font-size: xx-large;
+    font-family: PoppinsBold;
+    color: black;
+  }
+  .blogPostForm{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 2.8rem !important;
+  }
+  .blogPostFormInput{
+    background-color: #f2f2f2 !important ;
+    border-radius: 0px !important;
+    font-size: large !important;
+    padding: 1rem;
+    border: 2px solid #d9d9d9 !important;
+    resize: none;
+  }
+  .blogPostFormInput:focus{
+    box-shadow: 0 0 0 0.17rem rgb(231 76 60 / 25%);
+  }
+  .labelPostForm{
+      font-size: x-large;
+      font-weight: 500;
+      padding-bottom: 0.5rem;
+  }
+  .blogFormDesciptionSpan{
+      font-size: large;
+      color: gray;
+  }
+  .preview{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+  }
+  .preview div{
+      display: flex;
+      flex-direction: column;
+      padding-right: 20px;
+  }
+  .preview div img{
+      width: 20rem;
+      padding-bottom: 10px;
+  }
+  .blogPostFormBtn{
+    width: 15rem !important;
+    font-size: x-large;
+    padding: 1rem;
+    right: 0;
+    align-self: flex-end;
+      background-color: #77ac54 !important;
+      border: none !important;
+  }
+  @media only screen and (max-width:800px){
+         
+      .blogPostForm{
+          width: 100%;
+          
+      }
+      .blogPostFormBtn{
+        font-size: large;
+      }
+      .blogFormDesciptionSpan{
+        font-size: small;
+    }
+    .labelPostForm{
+        font-size: large;
+    }
+    .blogPostHeading {
+        font-size: x-large;
+        font-family: PoppinsBold;
+    }
+  }
+  @media only screen and (max-width:600px){
+    .blogPostPtext {
+        font-size: x-small;
+      }     
+      .blogPostForm{
+          width: 100%;
+          padding: 1rem !important;
+      }
+      .blogPostFormBtn{
+        align-self: center;
+      }
+  }

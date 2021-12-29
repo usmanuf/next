@@ -1,0 +1,55 @@
+.HerosectionABoutus{
+    background-image: url("../public/assets/Images/about-us-hero.jpg");
+    padding: 55px 0;
+    display: grid;
+    place-items: center;
+     position: relative;
+     background-size: 100% 100% 100%;
+     height: 70vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.AboutUs #aboutc {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  /* width: 500px;
+  max-width: 100%; */
+}
+.AboutUs .works img {
+  border-radius: 10px;
+  height: 300px;
+  object-fit: contain;
+  width: 100%;
+  max-width: 100%
+}
+.AboutUs .aboutsection {
+  min-height: 1600px;  
+}
+/* .AboutUs .upperAboutUs p {
+} */
+.AboutUs .aboutsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+@media screen and (max-width: 565px) {
+   .HerosectionABoutus{
+    background-image: url("../public/assets/Images/about-us-mobile.jpeg");
+   padding: 55px 0;
+    display: grid;
+    place-items: center;
+     position: relative;
+     background-size: 100% 100% 100%;
+    height: 70vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+}

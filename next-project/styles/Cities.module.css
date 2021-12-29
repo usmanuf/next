@@ -1,0 +1,71 @@
+.cityCarousel{
+    padding: 13px;
+    margin-bottom: 33px;
+}
+.citiesAbout{
+    height: 100%;
+}
+.CitiesAboutUs{
+    background: #f6f6f6;
+    padding: 55px 0;
+}
+/* .Carousel-CityAboutUs{
+} */
+.paraWhy
+{
+    text-align: justify !important;
+}
+.citespara{
+    max-width: 550px;
+
+    color: #646262;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+
+.citiesAbout{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    margin-bottom: 12px;
+   
+}
+.AboutImageCarousel{
+width: 100%;
+ padding: 12px;
+
+
+
+}
+.imgcity{
+    width: 100%;
+    margin: auto;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.1);
+    height: 200px;
+    background: 100% 100%;
+}
+.TExtCarouselAbout{
+    width: 100%;
+   text-align: justify;
+}
+.TExtCarouselAbout h1{
+  font-size: 22px;
+    font-weight: 600;
+    color: #202120;
+    height: 100%;
+    margin-top: 19px;
+    margin-bottom: 4px;
+}
+.TExtCarouselAbout p{
+  font-size: 15px;
+
+height: 100%;
+
+    font-weight: 300;
+    color: #616261;
+    line-height: 18px;
+
+}

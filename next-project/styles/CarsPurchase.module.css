@@ -1,0 +1,83 @@
+.CarsPurchase{
+    padding: 33px;   
+}
+.CardVehicleImage{
+   width: 100% !important;
+   height: auto;
+   padding: 8px;
+    border-radius: 2px;
+    border: 2px solid var(--theme-color);
+    margin-bottom: 3px;
+    cursor: pointer;
+    transition: .4s;
+   
+}
+
+.paraWhys {
+    font-size: 1.1rem;
+    text-align: center;
+}
+.CardVehicleImage img{
+    position: relative;
+    width: 100%;
+    height: 200px;
+
+}
+.CardContentVehicle{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 35px;
+    z-index: 999;
+    
+}
+.buttonVehicle{
+
+   background: var(--theme-color);
+    font-size: .9em;
+    color: white;
+    text-transform: uppercase;
+    padding: 7px;
+    text-align: center;
+    max-width: 300px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.CardVehicleImage:hover{
+    /* border: 2px solid var(--theme-color)!important; */
+    background: var(--theme-color)
+    /* color: var(--theme-color); */
+}
+
+
+@media screen and (max-width: 565px) {
+
+    .CarsPurchase{
+        padding: 3px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .paraGraphVehicle {
+        margin: 0 16px;
+    }
+    .paraWhys {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .buttonVehicle{
+
+        background: var(--theme-color);
+        font-size: .9em;
+        color: white;
+        text-transform: uppercase;
+        padding: 7px;
+        text-align: center;
+        max-width: 300px;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+     }
+     
+}

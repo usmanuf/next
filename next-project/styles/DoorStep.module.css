@@ -1,0 +1,24 @@
+.maxWidthWorking {
+    max-width: 600px;
+    margin: 12px;
+}
+
+.HeadingWorkingCar, .ParaWorkingCar {
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 600;
+    color: #000000;
+}
+
+.IconWorking {
+    color: var(--theme-color);
+    margin: 3px;
+    font-size: 1.2rem;
+}
+
+.ParagraphWorkings{
+    display: flex;
+    color: var(--secondary-bg);
+    /* margin-top: 12px; */
+    font-size: 1.1rem;
+}

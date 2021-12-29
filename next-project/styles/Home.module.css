@@ -1,0 +1,258 @@
+.Herosection{
+    background-image: url("../public/assets/Images/hero-crazy-img.jpg");
+    display: grid;
+    place-items: center;
+    border-bottom: 4px solid var(--theme-color);
+    border-bottom: var(--theme-color) solid 4px;
+}
+
+.heroTextSection
+{
+    padding: 2%;
+}
+
+.fontStyles
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.colorStyles{
+    color: white;
+}
+.colorStyles:hover{
+    color: var(--theme-color);
+}
+.spanHome{
+    /* -webkit-text-stroke: 1px var(--white); */
+    font-size: 3rem;
+    font-weight: bold;
+    color:var(--theme-color);
+}
+.paraGraphHome{
+    width: 100%;
+    margin-top: 10%;
+}
+.paraGraphHome p{
+    font-size: 2.2rem;
+    color: var(--white);
+    width: 100%;
+    line-height: 1.2;
+}
+/* .listHero{
+    padding: 12px;
+} */
+.TextHero{
+    font-size: 1.7rem;
+    color: var(--white);
+    margin-bottom: 12px;
+    font-weight: 600;
+    margin-top: -22px;
+    line-height: 1.2;
+}
+.textHome{
+    font-size: 1.2rem;
+    color: var(--white);
+    margin: 12px;
+    font-weight: 400;
+}
+.ListShowcase{
+    color: white;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.spanDott{
+   width: 28px;
+    color: var(--theme-color);
+}
+.heroBtn{
+    display: flex;
+    margin-top: 12px;
+}
+.btnHomes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none !important;
+}
+.btnHomesCall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none !important;
+}
+.btnWhatsapp{
+    background-color:var(--theme-color); 
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: var(--white);
+    /* padding: 8px 40px; */
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    text-decoration: none !important;
+    border: 1px solid var(--white);
+}
+.btnWhatsapp:hover{
+    background-color: var(--white);
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: var(--theme-color);
+    /* padding: 8px 40px; */
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 1.2rem;
+    border: 1px solid var(--white);
+    margin-right: 10px;
+    text-decoration: none !important;
+}
+.btnCallus{
+    /* background-color:var(--theme-color);  */
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: var(--white);
+    /* padding: 8px 40px; */
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    text-decoration: none !important;
+    border: 1px solid var(--white);
+}
+.btnCallus:hover{
+    background-color: var(--theme-color);
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: var(--white);
+    /* padding: 8px 40px; */
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 1.2rem;
+    border: 1px solid var(--white);
+    margin-right: 10px;
+    text-decoration: none !important;
+}
+.iconHome{
+    font-size: 1.2em;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+.fontStyles
+    {
+        font-size: 2.3rem;
+        text-indent: 50px;
+    }
+@media screen and (max-width: 565px) {
+    .Herosection{
+        background-image: url("../public/assets/Images/hero-crazy-img.jpg");
+        /* padding: 55px 0;
+        margin-top: 70px; */
+        display: grid;
+        place-items: center;
+        height: auto;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        border-bottom: var(--theme-color) solid 4px;
+    }
+    .btnHomes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        text-decoration: none !important;
+
+    }
+    .btnHomesCall{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        text-decoration: none !important;
+
+    }
+    .contentHome
+    {
+        padding: 12px;
+    }
+    
+    .btnWhatsapp{
+    background-color:var(--theme-color); 
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: var(--white);
+    padding: 8px 12px;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    }
+    .btnCallus{
+    /* background-color: var(--white); */
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: var(--white);
+    padding: 8px 12px;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    border: 1px solid var(--white);
+    }
+    .iconHome {
+        font-size: 1.3rem;
+        margin-right: 6px;
+        margin-top: 4px;
+    }
+    .paraGraphHome p{
+        font-size: 2rem;
+        color: var(--white);
+        width: 100%;
+        line-height: 1.2;
+    }
+    .fontStyles
+    {
+        font-size: 2.3rem;
+        margin-top: 20% !important;
+    }
+    .TextHero{
+        font-size: 2rem;
+        color: var(--white);
+        margin-bottom: 12px;
+        font-weight: 600;
+    }
+    .textHome {
+        font-size: 1.2rem;
+        color: var(--white);
+        margin: 2px;
+        font-weight: 400;
+    }
+    .heroBtn{
+        display: flex;
+        margin-top: 25px;
+    }
+
+}

@@ -1,0 +1,221 @@
+
+.HomeForm{
+    background: var(--theme-color);
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 80%;
+}
+.colorStyles
+{
+    color: black !important;
+    text-decoration: none;
+}
+
+.colorStyles:hover
+{
+    color: var(--theme-color) !important;
+    text-decoration: none;
+}
+
+.fromWrapper{
+    /* background-color: rgba(221, 215, 215, 1); */
+    padding: 12px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.optionStyles
+{
+    color: grey;
+}
+.Homeformtitle{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+.formfield{
+    margin-top: 8px;
+
+}
+.forminput{
+    width: 100%;
+    font-size: 1rem;
+    padding: 8px;
+    font-weight: 400;
+    border: 1.5px solid gray;
+    border-radius: 3px;
+    color: #444444 !important;
+    background-color: #ffffff!important;
+
+}
+
+.inputerrors {
+    color: #db0404;
+    font-size: 13px;
+    margin-top: 3px;
+}
+.selectedfield{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    padding: 8px;
+    border: 1px solid gray;
+    font-weight: 400;
+    border-radius: 3px;
+    color: black !important;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+    appearance: none;
+    background-color: #ffffff!important;
+}
+
+.selectedfield1{
+    width: 100%;
+    font-size: 1rem;
+    padding: 8px;
+    border: 1px solid gray;
+    font-weight: 300;
+    border-radius: 3px;
+    color: #a9a9a9 !important;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+    appearance: none;
+    background-color: #ffffff!important;
+}
+
+/* .text-white1
+{
+ color: black !important;
+} */
+.btnHeroSection{
+
+  margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btnHeroSection:hover {
+                    transform: translateY(-1px);
+                }
+.marStyles
+{
+    margin-top: 5% !important;
+}
+.btnHomeform{
+    color: var(--theme-color);
+    background: white;
+    width: 99%;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    padding: 4px;
+    border: 1px solid var(--theme-color);
+
+}
+/* .btn-Home-form:hover{
+    background: var(--white);
+    color: var(--theme-color);
+} */
+
+.checkbox_wraps{
+    width: 100%;
+}
+.checkboxHome{
+    display: flex;    align-items: center;
+    font-size: 14px;
+
+
+}
+.carloaderwrapper {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 20%;
+    height: 70%;
+    z-index: 1000;
+    margin-top: 150px;
+    background: rgba(255,255,255,.2);
+}
+.carloader {
+    display: block ;
+    position: absolute !important;
+    left: 0% !important;
+    top: 10% !important;
+    width: 50% !important ;
+    z-index: 1000;
+}
+@media only screen and (min-width: 1368px) {
+
+.carloaderwrapper {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 20%;
+    height: 70%;
+    z-index: 1000;
+    margin-top: 150px;
+    background: rgba(255,255,255,.2);
+}
+.carloader {
+    display: block ;
+    position: absolute !important;
+    left: 0% !important;
+    top: 80% !important;
+    width: 50% !important ;
+    z-index: 1000;
+}
+}
+@media only screen and (max-width: 768px) {
+
+.HomeForm{
+    background: var(--theme-color);
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 4px;
+    padding: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+.Homeformtitle{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+.fromWrapper{
+    /* background-color: rgba(221, 215, 215, 1); */
+    padding: 5px;
+    margin-top: 0%;
+}
+.form-input{
+    width: 100%;
+    font-size: 1rem;
+    padding: 8px;
+    font-weight: 300;
+    border: 1.5px solid gray;
+    border-radius: 3px;
+    color: #444444 !important;
+    background-color: #ffffff!important;
+
+}
+.btnHomeform{
+    color: var(--theme-color);
+    background: white;
+    width: 99%;
+    border-radius: 3px;
+    font-size: 1.4rem;
+    padding: 4px;
+    border: 1px solid var(--theme-color);
+
+}
+}

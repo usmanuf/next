@@ -1,0 +1,7 @@
+event - compiled client and server successfully in 8.4s (294 modules)
+> Ready on http://localhost:\\.\pipe\09392f1a-5cbc-4ca7-b86d-f7180447c387
+wait  - compiling /[slug] (client and server)...
+event - compiled client and server successfully in 3.5s (348 modules)
+context.query { slug: 'server.js' }
+this.props { slug: 'server.js' }
+this.props.n s

@@ -1,0 +1,175 @@
+.AboutCar{
+    padding: 33px;
+    background: var(--bg-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AboutCar a{
+    text-decoration: none;
+}
+.imageSection
+{
+    margin-top: 30px !important;
+}
+.imgLookingCars{
+    width: 50% !important;
+    float: right  !important;
+    background-size: 100% 100% !important;
+    border-radius: 8px !important;
+}
+
+.approach{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+.AboutBtn{
+    display: flex;
+    max-width: 400px;
+    margin: auto;
+
+}
+.btnWhatsappAbout{
+    background-color:var(--theme-color);  /* Green */
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: var(--white);
+    padding: 5px 12px;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+.btnWhatsappAbout:hover{
+    background-color: var(--white); /* Green */
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: var(--theme-color);
+    padding: 5px 12px;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    border: 1px solid var(--theme-color);
+}
+
+.btnCallusAbout{
+    background-color: var(--theme-color);  /* Green */
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: var(--white);
+    padding: 5px 12px;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 1.3rem;
+    border: 1px solid var(--theme-color);
+    margin-right: 10px;
+}
+
+.btnCallusAbout:hover{
+    background-color: var(--white); /* Green */
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: var(--theme-color); 
+    padding: 5px 12px;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 1.3rem;
+    border: 1px solid var(--theme-color);
+    margin-right: 10px;
+}
+.iconHome{
+    font-size: 2.2rem;
+    margin-right: 3px;
+    margin-top: 1px;
+}
+.paraGraphLooking {
+    font-size: 1.1rem;
+    margin-top: 18px;
+    text-align: justify;
+    margin-left: 10px;
+
+}
+.marStyles
+{
+    margin-top: 20px;
+}
+.iconHome {
+    font-size: 1.3rem;
+    margin-right: 3px;
+    margin-top: 1px;
+}
+@media screen and (max-width: 565px) {
+    .AboutCar{
+        padding: 3px;
+        background: var(--bg-gray);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgLookingCars{
+        width: 100% !important;
+        /* margin-left: 1.3rem!important; */
+        /* margin-bottom: 1.3rem!important; */
+        max-height: 300px!important;
+        background-size: 100% 100%!important;
+        border-radius: 6px!important;
+        /* margin-top: 5rem!important;
+    }
+    .btnWhatsappAbout{
+        background-color:var(--theme-color);  /* Green */
+        display: flex;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        align-items: center;
+        color: var(--white);
+        padding: 5px 12px;
+        border-radius: 3px;
+        width: 100%;
+        font-size: 1.2rem;
+        margin-right: 10px;
+    }
+    .btnCallusAbout{
+        background-color: var(--theme-color);  /* Green */
+        display: flex;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        align-items: center;
+        color: var(--white);
+        padding: 5px 12px;
+        border-radius: 3px;
+        width: 100%;
+        font-size: 1.3rem;
+        border: 1px solid var(--theme-color);
+        margin-right: 10px;
+    }
+    .paraGraphLooking
+    {
+        font-size: 1.1rem;
+        margin-top: 6px;
+        text-align: justify;
+        margin: 9px;
+    }
+    .iconHome {
+        font-size: 1.3rem;
+        margin-right: 6px;
+        margin-top: 4px;
+    }
+}

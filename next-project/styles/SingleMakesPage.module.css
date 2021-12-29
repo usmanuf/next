@@ -1,0 +1,200 @@
+.HerosectionAllMakeSingle{
+    width: 100% !important;
+    height: 450px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important; 
+  }
+  .modelHeading h1
+  {
+      letter-spacing:0;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: var(--theme-color);
+  }
+
+  .imageSinglePage
+  {
+      width: 250px !important;
+      height: 110px !important;
+      object-fit: contain;
+      
+  }
+  .carrepair-design-carhut {
+  margin-top: 88px;
+  }
+  .h1Text{
+      text-align: center;
+  }
+  .strongText{
+      font-weight: 700;
+  }
+  .carModels{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-size: 1.1rem;
+      line-height: 30px;
+      margin-top: 12px;
+    text-align: center;
+    
+  }
+  .carModels a{
+    text-decoration: none;
+  }
+  .spanText{
+      color: #7cb854;
+  }
+  
+  .btnDiv{
+      margin-bottom: 1px;
+      text-align: center;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .btn{
+      padding: 6px 35px !important;
+  }
+  .btn-success {
+      color: #fff !important;
+      background-color: #5cb85c !important;
+      border-color: #4cae4c !important;
+  }
+  .padding1{
+      padding-left: 5px !important;
+  }
+  .margin1{
+      margin-left: 5px;
+  }
+  .h2Div h2{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      padding-top: 3rem;
+      font-size: 1.3rem;
+  }
+  .paraWhy
+  {
+      font-size: 1.1rem;
+      text-align: justify;
+  }
+  .picDiv{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      padding: 2rem;
+  
+  }
+  .boxStylesModelSingle
+  {
+      width: 250px;
+      border-radius: 3px;
+      border-width: 2px;
+      border-color: black;
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+      margin-bottom: 20px;
+  }
+  .boxStylesModelSingleText
+  {
+      background-color: #77AC54;
+      width: 100%;
+      
+  }
+  .spanStyles
+  {
+      font-weight: 400;
+      color: black;
+  }
+  .pTag{
+      position: relative;
+      font-size: 0.9rem;
+      color: white !important;
+      top: 8px;
+  }
+  
+  .bgColorStyles
+  {
+      padding: 50px 0;
+      background: var(--bg-gray);
+  }
+  .btnHomesSellCar{
+    background-color:var(--theme-color);  /* Green */
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: var(--white);
+    padding: 5px 12px;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+.btnHomesSellCar:hover{
+    background-color: var(--white); /* Green */
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    color: var(--theme-color);
+    padding: 5px 12px;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 1.1rem;
+    border: 1px solid var(--theme-color);
+    margin-right: 10px;
+}
+.iconHome {
+    font-size: 1.3rem;
+    margin-right: 3px;
+    margin-top: 1px;
+}
+.paraWhy
+{
+    font-size: 1.1rem;
+    text-align: justify;
+    
+}
+
+  @media only screen and (max-width: 768px){
+      .btnDiv{
+          flex-direction: column;
+      }
+      .margin1{
+          margin-left: 0px;
+          margin-top: 8px;
+      }
+      .carrepair-design-carhut {
+          padding-left: 1.5rem !important;
+          padding-right: 1.5rem !important;
+      }
+      .boxStylesModelSingleText
+      {
+          background-color: #77AC54;
+          width: 65%;
+          
+      }
+      .btnHomesSellCar{
+        background-color:var(--theme-color);  /* Green */
+        display: flex;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        align-items: center;
+        color: var(--white);
+        padding: 8px 12px;
+        border-radius: 3px;
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+  }

@@ -1,0 +1,22 @@
+.methodbox{
+    display: grid;
+    place-items: center;
+    border: 2px solid var(--theme-color);
+    padding: 12px;
+   border-radius: 3px;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 3px;
+    overflow: hidden;
+}
+.methodIcon{
+    font-size: 6.4rem;
+    padding: 12px;
+    color: var(--theme-color);
+}
+.methodText{
+    font-size: 1.1rem;
+    line-height: 23px;
+    text-align: center;
+    color: var(--secondary-bg);
+}

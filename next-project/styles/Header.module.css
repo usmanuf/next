@@ -1,0 +1,77 @@
+.navbarColor {
+    background-color: #E74C3C;
+    padding-left: 55px !important;
+    padding-right: 30px !important;
+  }
+  .container {
+    font-family: PoppinsRegular !important;
+  }
+  .marginLeft {
+    margin-left: auto;
+  }
+  .logoImg {
+    height: 3rem;
+  }
+  .nav-link {
+    font-family: PoppinsRegular;
+    color: white !important;
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-right: 20px !important;
+  }
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center !important;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+  .boredrClr {
+    width: 240px;
+    height: 46px;
+    align-items: center;
+    text-align: center;
+  }
+  .dropdown-toggle:focus {
+    border: 1px solid white !important;
+  }
+  .dropdown-menu {
+    width: 220px !important;
+  }
+  @media only screen and (max-width:1180px) {
+    .nav-link {
+      font-size: medium;
+      margin-right: 0px !important;
+    }
+    .boredrClr {
+      width: 192px ;
+      height: 46px;
+      align-items: center;
+      text-align: center;
+    }
+    .dropdown-menu {
+      width: 192px !important;
+    }
+  }
+  @media only screen and (max-width:1000px) {
+    .navbar-light .navbar-toggler {
+        color: white !important;
+        border-color: white !important;
+    }
+    .nav-link {
+      font-family: PoppinsRegular;
+      color: white !important;
+      font-size: larger;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .navbarColor {
+      padding-left: 25px !important;
+  }
+  .dropdown-toggle:focus {
+    border: 0 !important;
+  }
+  }

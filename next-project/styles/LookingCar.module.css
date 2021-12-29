@@ -1,0 +1,107 @@
+.LookingCar{
+    padding: 33px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--bg-gray);
+}
+.headingStyles
+{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8px;
+    line-height: 33px;
+   
+}
+.headingtext
+{
+    /* max-width: 600px; */
+    font-size: 2rem;
+    line-height: 33px;
+    text-transform: capitalize;
+}
+.imgsLookingCar{
+    width: 100%;
+    max-height: 400px;
+   background-size: 100% 100%;
+    border-radius: 8px;
+}
+.paraGraphLooking{
+    font-size: 1.1rem;
+    margin-top: 8px;
+    color: var(--secondary-bg);
+    text-align: justify;
+}
+.ParagraphName{
+    display: flex;
+    flex-direction: column;
+}
+.ParagraphTexts{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--theme-color);
+    margin: 5px 0;
+    
+}
+.paraGrahpList{
+    font-size: 1rem;
+    display: flex;
+}
+.FaArrowAltCircleRight
+{
+    font-size: 1rem;
+    color: var(--theme-color);
+    margin-right: 2%;
+    margin-top: 4px;
+    
+}
+.IconPara{
+    color: var(--theme-color);
+    margin-right: 8px;
+    font-size: 16px;
+    margin-top: 1px;
+}
+
+@media screen and (max-width: 565px) {
+.headingtext
+{
+    max-width: 600px;
+    font-size: 1.5rem;
+    line-height: 32px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.LookingCar{
+    padding: 3px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--bg-gray);
+}
+.headingMain
+{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.paraGraphLooking{
+    font-size: 1.2rem;   
+    
+}
+.ParagraphTexts {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--theme-color);
+    margin: 5px 0;
+}
+.paraGrahpList
+{
+    font-size: 1.1rem;  
+    display: flex;
+    
+}
+}

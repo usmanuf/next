@@ -1,0 +1,61 @@
+.WhyChooseUs{
+    padding: 16px;
+background: var(--bg-gray);
+}
+.paraGraphChoose{
+    margin: 12px 0;
+}
+.headingWhy{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.paraWhys {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.paraWhy
+{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.MenuChoose{
+    display: flex;
+    flex-direction: column;
+}
+.MenuChooseHeading{
+    font-size: 12px;
+}
+.MenuChooseHeading{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    margin: 4px 0;
+    font-weight: 500;
+}
+.MenuChooseIcone{
+    color: var(--theme-color);
+    margin-right: 6px;
+}
+.MenuChoosePara{
+    font-size: 1.5rem;
+    margin-left: 6px;
+    color: #7e7d7d;
+}
+
+@media screen and (max-width: 565px) {
+
+    .paraWhys {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+    .paraWhy
+    {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+    .headingWhy{
+        font-size: 1.1rem;
+        font-weight: 700;
+        text-align: justify;
+    }
+}

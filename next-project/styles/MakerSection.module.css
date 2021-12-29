@@ -1,0 +1,48 @@
+.maker{
+    padding: 22px;
+    border-bottom: 1px solid var(--bg-gray);
+
+}
+.maker a{
+    text-decoration: none;
+}
+.btnMaker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paraWhys
+{
+    font-size: 1.1rem;
+    text-align: center;
+}
+.paraGraphAllMake{
+        margin: 0 16px;
+        text-align: center;
+    }
+.titleMainBox   
+{
+font-size: 1.8em;
+text-align: center;
+
+}
+.buttonStyles {
+    background-color: #ffffff;
+    color: var(--theme-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 35px;
+    transition: all 0.3s;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    border: 2px solid var(--theme-color);
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+
+   .buttonStyles:hover {
+    background-color: var(--theme-color);
+    color: #fff;
+  }
