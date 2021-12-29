@@ -1,5 +1,5 @@
 import React from "react";
-import BlogSinglePage from "../components/Blog/BLog";
+import BlogSinglePage from "../components/Blog/blog";
 
 function Blog(props) {
   return (
