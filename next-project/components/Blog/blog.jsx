@@ -27,8 +27,6 @@ function BlogSinglePage(props) {
   const [tagList, setTagList] = useState([]);
 
   const cardInfo = props.props;
-  console.log("carddddddddd", cardInfo[0].tag);
-
   const cardPerPage = 10;
   const pageVisited = pageNumber * cardPerPage;
   const displayCards = cardInfo
@@ -202,7 +200,6 @@ function BlogSinglePage(props) {
           <p className={styles.PopularPosts}>Related Posts</p>
           <br />
           {cardInfo.slice(0, 5).map((data, index) => {
-            console.log("dataaaaa", data);
             return (
               <div key={index}>
                 <div className={`card ${styles.blogCard}`}>

@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../styles/SingleMakesPage.module.css";
 import moment from "moment";
 import Head from "next/head";
-import Html from "../pages/html";
+import BlogDetailSection from "../pages/BlogDetailSection";
 // import '../components/Blog/blog.module.css';
 export async function getServerSideProps(context) {
   let slug = context.query;
@@ -110,7 +110,7 @@ const Testing = (props) => {
           <div className={styles.paddingTopBottomBlog}></div>
         </div>
         <section className="py-5">
-          <Html
+          <BlogDetailSection
             articleDetail={articleDetail2}
             articles={articles}
             styles={styles}
