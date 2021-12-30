@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../styles/SingleMakesPage.module.css";
 import moment from "moment";
 import Head from "next/head";
-import Html from "./Html";
+import Html from "../pages/Html";
 // import '../components/Blog/blog.module.css';
 export async function getServerSideProps(context) {
   let slug = context.query;
