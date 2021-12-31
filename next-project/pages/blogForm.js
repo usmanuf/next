@@ -164,7 +164,10 @@ const BlogForm2 = () => {
               </div>
               <br />
               <div className="form-group">
-                <label htmlFor="post-description" className={styles.labelPostForm}>
+                <label
+                  htmlFor="post-description"
+                  className={styles.labelPostForm}
+                >
                   Ad Description{" "}
                   <span className={styles.blogFormDesciptionSpan}>
                     Enter long description for your project
@@ -179,6 +182,8 @@ const BlogForm2 = () => {
                   onChange={(e) => onDescChange(e)}
                   required
                 />
+
+               
               </div>
               <br />
               <div className="form-group">

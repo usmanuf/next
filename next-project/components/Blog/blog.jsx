@@ -257,12 +257,20 @@ function BlogSinglePage(props) {
               return (
                 <>
                   <div className={`col-4 ${styles.lightBtnTagsCol}`}>
-                    <a
-                      href=""
-                      className={`btn btn-light ${styles.lightBtnTags}`}
+                    <Link
+                      href={{
+                        pathname: "/[tag]/[slug]",
+                        query: {
+                          tag_id: obj.id,
+                        },
+                      }}
+                      as={`/crazy-blog-${obj.name}`}
+                      passHref
                     >
-                      {obj.name}
-                    </a>
+                      <a className={`btn btn-light ${styles.lightBtnTags}`}>
+                        {obj.name}
+                      </a>
+                    </Link>
                   </div>
                   &nbsp;
                 </>
