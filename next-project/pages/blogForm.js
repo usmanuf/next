@@ -14,7 +14,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
-import ReactQuill from "react-quill";
+// import ReactQuill from "react-quill";
 
 
 
@@ -203,7 +203,7 @@ const BlogForm2 = () => {
                   required
                 /> */}
 
-                <ReactQuill
+                {/* <ReactQuill
                   onChange={(value) => {
                     setDescription(value);
                   }}
@@ -212,7 +212,7 @@ const BlogForm2 = () => {
                   formats={formats}
                   placeholder="Enter Jobs Description"
                   required="required"
-                />
+                /> */}
               </div>
               <br />
               <div className="form-group">
