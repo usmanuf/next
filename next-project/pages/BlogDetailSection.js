@@ -5,11 +5,15 @@ import moment from "moment";
 import CarsPurchase from "../components/MainPage/CarsPurchase";
 import { useRouter } from "next/router";
 
-function BlogDetailSection(props){
+function BlogDetailSection(props) {
   const router = useRouter();
 
   if (router.isFallback) {
-    return <div><h1>Loading...</h1></div>;
+    return (
+      <div>
+        <h1>Loading...</h1>
+      </div>
+    );
   }
 
   return (
@@ -29,9 +33,9 @@ function BlogDetailSection(props){
           </div>
           <div className="col-md-6">
             <div className="small mb-1">&nbsp; &nbsp;</div>
-            <h2 className="display-6 fw-bolder">
+            <h1 className="display-6 fw-bolder">
               {props.articleDetail?.title}
-            </h2>
+            </h1>
             <div className="fs-5 mb-5">
               {/* <p className={`card-title ${props.styles.cardHeading}`}>Tags</p> */}
               <p>Tags</p>
@@ -46,9 +50,9 @@ function BlogDetailSection(props){
                       <span
                         style={{
                           color: "white",
-                          backgroundColor: "#a9d5a9",
+                          backgroundColor: "#77ac54",
                           padding: "10px",
-                          borderRadius: "15px",
+                          borderRadius: "5px",
                         }}
                       >
                         {obj.name}
@@ -58,34 +62,33 @@ function BlogDetailSection(props){
                   );
                 })}
               </div>
-              <span></span>
             </div>
 
-            <div className="fs-5 mb-5">
+          </div>
+          <div className="fs-5 mb-2">
               {/* <p className={`card-title ${props.styles.cardHeading}`}> */}
-              <p>
-                Description
-              </p>
+              <h3>Description</h3>
               <div
                 style={{
                   padding: "10px",
                 }}
               >
-                <p className="lead" style={{ fontSize: "15px" }}>
-                  {props.articleDetail?.article_text}
-
-                  <br></br>
+                <p className="lead" style={{ fontSize: "1.1rem", fontWeight:'600', textAlign:'justify' }}>
+                  <div
+                    dangerouslySetInnerHTML={{
+                      __html: props.articleDetail?.article_text,
+                    }}
+                  />
+                  
                 </p>
               </div>
             </div>
-          </div>
         </div>
       </div>
-      <div className="container blogContainer">
-        <CarsPurchase />
-      </div>
+     
+    
     </>
   );
-};
+}
 
 export default BlogDetailSection;

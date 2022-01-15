@@ -71,8 +71,17 @@ function BlogSinglePage(props) {
                     </p>
                   </a>
                   <p className={`card-text ${styles.cardTextpblog}`}>
-                    {cardInfo.article_text}
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: `${cardInfo.article_text.substring(0, 250)}...`,
+                      }}
+                    />
                   </p>
+                  {/* 
+                  {cardInfo.article_text.length > 250
+                    ? `${cardInfo.article_text.substring(0, 250)}...`
+                    : cardInfo.article_text} */}
+
                   <p className={`card-title ${styles.cardHeading}`}>Tags</p>
                   <div
                     style={{
@@ -85,9 +94,9 @@ function BlogSinglePage(props) {
                           <span
                             style={{
                               color: "white",
-                              backgroundColor: "#a9d5a9",
-                              padding: "10px",
-                              borderRadius: "15px",
+                          backgroundColor: "#77ac54",
+                          padding: "10px",
+                          borderRadius: "5px",
                             }}
                           >
                             {obj.name}

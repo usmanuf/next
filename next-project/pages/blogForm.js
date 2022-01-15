@@ -14,13 +14,50 @@ import "react-toastify/dist/ReactToastify.css";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
+import ReactQuill from "react-quill";
+
+
 
 const BlogForm2 = () => {
   const [title, setTitle] = useState();
-  const [description, setDescription] = useState();
+  const [description, setDescription] = useState("");
   const [tags, setTags] = useState([]);
   const [image, setImage] = useState();
   const [tagList, setTagList] = useState([]);
+  const modules = {
+    toolbar: [
+      [{ header: [1, 2, 3, 4, 5, 6, false] }],
+      [{ font: [] }],
+      ["bold", "italic", "underline", "strike", "blockquote"],
+      [
+        { list: "ordered" },
+        { list: "bullet" },
+        { indent: "-1" },
+        { indent: "+1" },
+      ],
+      ["link", "image"],
+      ["clean"],
+      [{ align: [] }],
+      ["code-block"],
+    ],
+  };
+
+  const formats = [
+    "header",
+    "font",
+    "bold",
+    "italic",
+    "underline",
+    "strike",
+    "blockquote",
+    "list",
+    "bullet",
+    "indent",
+    "link",
+    "image",
+    "align",
+    "code-block",
+  ];
 
   // form validation rules
   const validationSchema = Yup.object().shape({
@@ -28,23 +65,6 @@ const BlogForm2 = () => {
     description: Yup.string().required("Description is required"),
     image: Yup.string().required("Image is required"),
     tags: Yup.string().required("Tag is required"),
-
-    // firstName: Yup.string().required("First Name is required"),
-    // lastName: Yup.string().required("Last name is required"),
-    // dob: Yup.string()
-    //   .required("Date of Birth is required")
-    //   .matches(
-    //     /^\d{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$/,
-    //     "Date of Birth must be a valid date in the format YYYY-MM-DD"
-    //   ),
-    // email: Yup.string().required("Email is required").email("Email is invalid"),
-    // password: Yup.string()
-    //   .min(6, "Password must be at least 6 characters")
-    //   .required("Password is required"),
-    // confirmPassword: Yup.string()
-    //   .oneOf([Yup.ref("password"), null], "Passwords must match")
-    //   .required("Confirm Password is required"),
-    // acceptTerms: Yup.bool().oneOf([true], "Accept Ts & Cs is required"),
   });
   const formOptions = { resolver: yupResolver(validationSchema) };
   const { register, handleSubmit, reset, formState } = useForm();
@@ -173,7 +193,7 @@ const BlogForm2 = () => {
                     Enter long description for your project
                   </span>
                 </label>
-                <Input
+                {/* <Input
                   component="textarea"
                   name="article_text"
                   //   class={`form-control ${styles.blogPostFormInput}`}
@@ -181,9 +201,18 @@ const BlogForm2 = () => {
                   rows="8"
                   onChange={(e) => onDescChange(e)}
                   required
-                />
+                /> */}
 
-               
+                <ReactQuill
+                  onChange={(value) => {
+                    setDescription(value);
+                  }}
+                  value={description}
+                  modules={modules}
+                  formats={formats}
+                  placeholder="Enter Jobs Description"
+                  required="required"
+                />
               </div>
               <br />
               <div className="form-group">

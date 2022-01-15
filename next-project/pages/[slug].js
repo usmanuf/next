@@ -20,6 +20,8 @@ export async function getServerSideProps(context) {
   };
 }
 
+
+
 const Testing = (props) => {
   const articleDetailVariable = {};
   useEffect(() => {
@@ -155,7 +157,15 @@ const Testing = (props) => {
                     <div className="col-md-8">
                       <div className="card-body">
                         <h5 className="card-title">{article.title}</h5>
-                        <p className="card-text">{article.article_text}.</p>
+                        <p className={`card-text ${styles.cardTextpblog}`}>
+                          {/* {cardInfo.article_text} */}
+                          <div dangerouslySetInnerHTML={{
+                              __html: `${article.article_text.substring(0, 250)}...`,
+                            }}
+                          />
+                            
+                        </p>
+
                         <p className="card-text">
                           <small className="text-muted">
                             Dated :{" "}
